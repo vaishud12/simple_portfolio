@@ -1,0 +1,30 @@
+nav{
+    height:90px;
+    font-size: 18px;
+    background-color: black;
+    display:flex;
+    color:white;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width:100%;
+
+}
+.media{
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+@media screen and (max-width:700px) {
+    nav{
+        height: auto;
+        width: 100%;
+        padding: 30px 0 ;
+        justify-content: center;
+    }
+    .media{
+        padding-top: 10px;
+    }
+}

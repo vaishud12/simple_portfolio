@@ -1,0 +1,27 @@
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color:white; */
+    height: auto;
+    width: 100%;
+}
+
+.about p {
+    font-size: 18px;
+    text-align: justify;
+    
+    font-weight: 200;
+
+}
+
+.dr {
+    background-color: gray;
+    
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #000;
+    color: #fff;
+    padding: 10px;
+    
+}

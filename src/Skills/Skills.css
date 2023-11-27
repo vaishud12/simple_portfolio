@@ -1,0 +1,32 @@
+main{
+    height: auto;
+    width: 100%;
+    background: #3d3d3d;
+    color: white;
+    
+    padding: 40px;
+
+}
+main h4{
+    font-size:24px;
+    padding: 8px;
+}
+main .skillList{
+    padding: 0 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+main .skills{
+    background: gray;
+    border: 1px solid #000;
+    color: #fff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 350px;
+    text-align: center;
+}
