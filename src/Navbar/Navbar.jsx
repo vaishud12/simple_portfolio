@@ -47,20 +47,22 @@ const Navbar = () => {
     <><div className="Navbar" id='nav1'>
     <nav>
         <div><i className="fa-brands fa-apple"></i></div>
+        <div className="title">
         <div>Home</div>
         <div>About</div>
         <div>Gallery</div>
         <div>Contact</div>
         <div>Services</div>
+        </div>
         <div className="media"><i className="fa-brands fa-facebook"></i><i className="fa-brands fa-linkedin"></i><i className="fa-brands fa-twitter"></i>
         
-        <div class="night-toggle" onClick={cli}>
-          <div id="moon" class="moon"></div>
+        <div className="night-toggle" onClick={cli}>
+          <div id="moon" className="moon"></div>
         </div>
         </div>
     </nav>
   </div>
-  <div class></div>
+  
   </>
     
 

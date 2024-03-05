@@ -9,7 +9,14 @@ nav{
     justify-content: space-around;
     margin: auto;
     width:100%;
+    flex-wrap: wrap;
 
+}
+.title{
+  width: 350px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
 }
 .media{
     width: 190px;
@@ -69,5 +76,6 @@ nav{
     }
     .media{
         padding-top: 10px;
+        flex-wrap: wrap;
     }
 }
